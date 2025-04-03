@@ -9,8 +9,8 @@ int main()
     std::cout << "Who are you?\n";
     std::cout
         << "1. Alice\n"
-        << "2. Bob\n";
-
+        << "2. Bob\n"
+        << "3. Darth\n";
     int choice;
     std::cin >> choice;
     switch (choice)
@@ -21,6 +21,10 @@ int main()
 
     case 2:
         main_bob();
+        break;
+
+    case 3:
+        main_darth();
         break;
     }
     return 0;
